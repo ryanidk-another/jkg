@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<head>
+	<title>Simple test class</title>
+
+	<script src="https://meet123.ryanidkproductions.com/external_api.js"></script>
+</head>
+<h2>Testing for iframe embed for jitsi</h2>
+<script>
+	const domain = 'meet123.ryanidkproductions.com';
+	const options = {
+	    roomName = 'thisisatest',
+	    width: 800,
+	    height: 800,
+	    parentNode: document.querySelector('#meet')
+	};
+	const api = new JitsiMeetExternalAPI(domain, options);
+</script>
